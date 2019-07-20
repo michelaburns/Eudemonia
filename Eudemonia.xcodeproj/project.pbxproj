@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB8E33822E3CDCE00A2D3EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB8E33722E3CDCE00A2D3EF /* AppDelegate.swift */; };
+		EBB8E33A22E3CDCE00A2D3EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB8E33922E3CDCE00A2D3EF /* ViewController.swift */; };
+		EBB8E33D22E3CDCE00A2D3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB8E33B22E3CDCE00A2D3EF /* Main.storyboard */; };
+		EBB8E33F22E3CDCF00A2D3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB8E33E22E3CDCF00A2D3EF /* Assets.xcassets */; };
+		EBB8E34222E3CDCF00A2D3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB8E34022E3CDCF00A2D3EF /* LaunchScreen.storyboard */; };
+		EBB8E34D22E3CDCF00A2D3EF /* EudemoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB8E34C22E3CDCF00A2D3EF /* EudemoniaTests.swift */; };
+		EBB8E35822E3CDCF00A2D3EF /* EudemoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB8E35722E3CDCF00A2D3EF /* EudemoniaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBB8E34922E3CDCF00A2D3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB8E32C22E3CDCE00A2D3EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB8E33322E3CDCE00A2D3EF;
+			remoteInfo = Eudemonia;
+		};
+		EBB8E35422E3CDCF00A2D3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB8E32C22E3CDCE00A2D3EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB8E33322E3CDCE00A2D3EF;
+			remoteInfo = Eudemonia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBB8E33422E3CDCE00A2D3EF /* Eudemonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eudemonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB8E33722E3CDCE00A2D3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBB8E33922E3CDCE00A2D3EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBB8E33C22E3CDCE00A2D3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBB8E33E22E3CDCF00A2D3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB8E34122E3CDCF00A2D3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBB8E34322E3CDCF00A2D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB8E34822E3CDCF00A2D3EF /* EudemoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EudemoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB8E34C22E3CDCF00A2D3EF /* EudemoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EudemoniaTests.swift; sourceTree = "<group>"; };
+		EBB8E34E22E3CDCF00A2D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB8E35322E3CDCF00A2D3EF /* EudemoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EudemoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB8E35722E3CDCF00A2D3EF /* EudemoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EudemoniaUITests.swift; sourceTree = "<group>"; };
+		EBB8E35922E3CDCF00A2D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB8E33122E3CDCE00A2D3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8E34522E3CDCF00A2D3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8E35022E3CDCF00A2D3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB8E32B22E3CDCE00A2D3EF = {
+			isa = PBXGroup;
+			children = (
+				EBB8E33622E3CDCE00A2D3EF /* Eudemonia */,
+				EBB8E34B22E3CDCF00A2D3EF /* EudemoniaTests */,
+				EBB8E35622E3CDCF00A2D3EF /* EudemoniaUITests */,
+				EBB8E33522E3CDCE00A2D3EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB8E33522E3CDCE00A2D3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB8E33422E3CDCE00A2D3EF /* Eudemonia.app */,
+				EBB8E34822E3CDCF00A2D3EF /* EudemoniaTests.xctest */,
+				EBB8E35322E3CDCF00A2D3EF /* EudemoniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB8E33622E3CDCE00A2D3EF /* Eudemonia */ = {
+			isa = PBXGroup;
+			children = (
+				EBB8E33722E3CDCE00A2D3EF /* AppDelegate.swift */,
+				EBB8E33922E3CDCE00A2D3EF /* ViewController.swift */,
+				EBB8E33B22E3CDCE00A2D3EF /* Main.storyboard */,
+				EBB8E33E22E3CDCF00A2D3EF /* Assets.xcassets */,
+				EBB8E34022E3CDCF00A2D3EF /* LaunchScreen.storyboard */,
+				EBB8E34322E3CDCF00A2D3EF /* Info.plist */,
+			);
+			path = Eudemonia;
+			sourceTree = "<group>";
+		};
+		EBB8E34B22E3CDCF00A2D3EF /* EudemoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB8E34C22E3CDCF00A2D3EF /* EudemoniaTests.swift */,
+				EBB8E34E22E3CDCF00A2D3EF /* Info.plist */,
+			);
+			path = EudemoniaTests;
+			sourceTree = "<group>";
+		};
+		EBB8E35622E3CDCF00A2D3EF /* EudemoniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB8E35722E3CDCF00A2D3EF /* EudemoniaUITests.swift */,
+				EBB8E35922E3CDCF00A2D3EF /* Info.plist */,
+			);
+			path = EudemoniaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB8E33322E3CDCE00A2D3EF /* Eudemonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB8E35C22E3CDCF00A2D3EF /* Build configuration list for PBXNativeTarget "Eudemonia" */;
+			buildPhases = (
+				EBB8E33022E3CDCE00A2D3EF /* Sources */,
+				EBB8E33122E3CDCE00A2D3EF /* Frameworks */,
+				EBB8E33222E3CDCE00A2D3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eudemonia;
+			productName = Eudemonia;
+			productReference = EBB8E33422E3CDCE00A2D3EF /* Eudemonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBB8E34722E3CDCF00A2D3EF /* EudemoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB8E35F22E3CDCF00A2D3EF /* Build configuration list for PBXNativeTarget "EudemoniaTests" */;
+			buildPhases = (
+				EBB8E34422E3CDCF00A2D3EF /* Sources */,
+				EBB8E34522E3CDCF00A2D3EF /* Frameworks */,
+				EBB8E34622E3CDCF00A2D3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB8E34A22E3CDCF00A2D3EF /* PBXTargetDependency */,
+			);
+			name = EudemoniaTests;
+			productName = EudemoniaTests;
+			productReference = EBB8E34822E3CDCF00A2D3EF /* EudemoniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBB8E35222E3CDCF00A2D3EF /* EudemoniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB8E36222E3CDCF00A2D3EF /* Build configuration list for PBXNativeTarget "EudemoniaUITests" */;
+			buildPhases = (
+				EBB8E34F22E3CDCF00A2D3EF /* Sources */,
+				EBB8E35022E3CDCF00A2D3EF /* Frameworks */,
+				EBB8E35122E3CDCF00A2D3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB8E35522E3CDCF00A2D3EF /* PBXTargetDependency */,
+			);
+			name = EudemoniaUITests;
+			productName = EudemoniaUITests;
+			productReference = EBB8E35322E3CDCF00A2D3EF /* EudemoniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB8E32C22E3CDCE00A2D3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Michela;
+				TargetAttributes = {
+					EBB8E33322E3CDCE00A2D3EF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EBB8E34722E3CDCF00A2D3EF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EBB8E33322E3CDCE00A2D3EF;
+					};
+					EBB8E35222E3CDCF00A2D3EF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EBB8E33322E3CDCE00A2D3EF;
+					};
+				};
+			};
+			buildConfigurationList = EBB8E32F22E3CDCE00A2D3EF /* Build configuration list for PBXProject "Eudemonia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB8E32B22E3CDCE00A2D3EF;
+			productRefGroup = EBB8E33522E3CDCE00A2D3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB8E33322E3CDCE00A2D3EF /* Eudemonia */,
+				EBB8E34722E3CDCF00A2D3EF /* EudemoniaTests */,
+				EBB8E35222E3CDCF00A2D3EF /* EudemoniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB8E33222E3CDCE00A2D3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB8E34222E3CDCF00A2D3EF /* LaunchScreen.storyboard in Resources */,
+				EBB8E33F22E3CDCF00A2D3EF /* Assets.xcassets in Resources */,
+				EBB8E33D22E3CDCE00A2D3EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8E34622E3CDCF00A2D3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8E35122E3CDCF00A2D3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB8E33022E3CDCE00A2D3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB8E33A22E3CDCE00A2D3EF /* ViewController.swift in Sources */,
+				EBB8E33822E3CDCE00A2D3EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8E34422E3CDCF00A2D3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB8E34D22E3CDCF00A2D3EF /* EudemoniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8E34F22E3CDCF00A2D3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB8E35822E3CDCF00A2D3EF /* EudemoniaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBB8E34A22E3CDCF00A2D3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB8E33322E3CDCE00A2D3EF /* Eudemonia */;
+			targetProxy = EBB8E34922E3CDCF00A2D3EF /* PBXContainerItemProxy */;
+		};
+		EBB8E35522E3CDCF00A2D3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB8E33322E3CDCE00A2D3EF /* Eudemonia */;
+			targetProxy = EBB8E35422E3CDCF00A2D3EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBB8E33B22E3CDCE00A2D3EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB8E33C22E3CDCE00A2D3EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBB8E34022E3CDCF00A2D3EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB8E34122E3CDCF00A2D3EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB8E35A22E3CDCF00A2D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBB8E35B22E3CDCF00A2D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB8E35D22E3CDCF00A2D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eudemonia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Eudemonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB8E35E22E3CDCF00A2D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eudemonia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Eudemonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBB8E36022E3CDCF00A2D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EudemoniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EudemoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eudemonia.app/Eudemonia";
+			};
+			name = Debug;
+		};
+		EBB8E36122E3CDCF00A2D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EudemoniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EudemoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eudemonia.app/Eudemonia";
+			};
+			name = Release;
+		};
+		EBB8E36322E3CDCF00A2D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EudemoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EudemoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eudemonia;
+			};
+			name = Debug;
+		};
+		EBB8E36422E3CDCF00A2D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EudemoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EudemoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eudemonia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB8E32F22E3CDCE00A2D3EF /* Build configuration list for PBXProject "Eudemonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB8E35A22E3CDCF00A2D3EF /* Debug */,
+				EBB8E35B22E3CDCF00A2D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB8E35C22E3CDCF00A2D3EF /* Build configuration list for PBXNativeTarget "Eudemonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB8E35D22E3CDCF00A2D3EF /* Debug */,
+				EBB8E35E22E3CDCF00A2D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB8E35F22E3CDCF00A2D3EF /* Build configuration list for PBXNativeTarget "EudemoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB8E36022E3CDCF00A2D3EF /* Debug */,
+				EBB8E36122E3CDCF00A2D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB8E36222E3CDCF00A2D3EF /* Build configuration list for PBXNativeTarget "EudemoniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB8E36322E3CDCF00A2D3EF /* Debug */,
+				EBB8E36422E3CDCF00A2D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB8E32C22E3CDCE00A2D3EF /* Project object */;
+}
