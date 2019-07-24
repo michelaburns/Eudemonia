@@ -1,7 +1,8 @@
 import Foundation
 import Alamofire
 
-if let accountSID = ProcessInfo.processInfo.environment["TWILIO_ACCOUNT_SID"],
+//Save your Twilio Account SID and Auth Token as an environmental variables within your bash_profile
+if let accountSID = ProcessInfo.processInfo.environment["TWILIO_ACCOUNT_SID"], 
     let authToken = ProcessInfo.processInfo.environment["TWILIO_AUTH_TOKEN"] {
     
     let url = "https://api.twilio.com/2010-04-01/Accounts/\(accountSID)/Messages"
